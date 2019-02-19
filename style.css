@@ -8,6 +8,11 @@ body {
   
   
 }
+.cardtwo
+{
+  width:250px;
+  border: 2px dotted black;
+}
 #photo
 {
   width:15%;
