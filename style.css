@@ -6,12 +6,16 @@ body {
   margin: 2em;
   outline-color: coral;
   border-style:dotted;
-border-color:#287EC7;
+  border-color:black;
   border-radius:20px;
 }
 
 h1 {
   text-align:center;
   font-style: bold;
-  color: #373fff;
+  color: black;
+  order-style:dotted;
+  border-color:black;
+  border-radius:20px;
 }
+
