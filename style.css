@@ -6,6 +6,7 @@ body {
   margin: 2em;
   outline-color: coral;
   
+  
 }
 #photo
 {
@@ -13,6 +14,7 @@ body {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 1s;
   border-radius: 15px
+    
   
 }
 h1 {
