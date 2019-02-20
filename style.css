@@ -8,11 +8,16 @@ body {
   
   
 }
+h5
+{
+  text-align:justify;
+}
 .cardtwo
 {
     position: relative; 
   width:250px;
   border: 2px dotted black;
+  
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 .cardthree
@@ -32,6 +37,9 @@ body {
   
 }
 h1 {
+  margin-left:30%;
+  height:45px;
+  width:500px;
   text-align:center;
   font-style: bold;
   color: black;
