@@ -5,10 +5,11 @@ body {
   text-align:center;
   margin: 2em;
   outline-color: coral;
+  font-style:italic;
   
   
 }
-h5
+p
 {
   text-align:justify;
 }
