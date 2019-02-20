@@ -9,31 +9,31 @@ body {
   
   
 }
-#outer-div
-{
-  position:relative;
-}
+
 p
 {
   text-align:justify;
+  margin:5px;
 }
 h2
 {
   
   text-decoration:line-through;
 }
-.cardtwo
+#cardtwo
 {
-    position: absolute; 
-  width:550px;
+    
+  width:48%;
+  float:left;
   border: 2px dotted black;
   
       box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
-.cardthree
+#cardthree
 {
-  position: absolute;
-  
+
+  width:50%;
+  float:right;
   border: 2px dotted black;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);  
 }
