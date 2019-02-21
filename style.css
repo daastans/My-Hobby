@@ -51,7 +51,7 @@ animation-name:anim;
   
 #photo
 {
-
+position:relative;
   width:15%;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
   transition: 1s;
@@ -66,12 +66,13 @@ animation-name:anim;
 {
   animation-name:bordering;
   animation-duration:2s;  
+  animation-fill-mode:forwards;
 }
 @keyframes bordering
 {
-  0%{border: 1px solid white;border-radius:0%;}
-  50%{border:2px solid gray;}
-  100%{border: 3px solid black;border-radius:50%;}
+  0%{border: 1px solid white;border-radius:0%;right:0px}
+  50%{border:2px solid gray;right:100px;}
+  100%{border: 3px solid black;border-radius:50%;right:-100px;}
 }
 #photo:hover
 {
