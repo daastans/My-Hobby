@@ -6,9 +6,8 @@ body {
   margin: 2em;
   outline-color: coral;
   font-style:italic;
-      
-
-  
+  background:url("https://i.imgur.com/MJAkxbh.png");
+ 
 }
 
 p
@@ -51,8 +50,12 @@ h2
     opacity:0.7;
   display:block;
   margin:auto;
-    
-  
+  transform:scale(.9);
+     
+}
+#photo:hover
+{
+  transform:scale(1.2);
 }
 h1 {
   
