@@ -61,18 +61,18 @@ position:relative;
   margin:auto;
   transform:scale(.9);
      
-}
-#photo:hover
-{
+
   animation-name:bordering;
-  animation-duration:2s;  
+  animation-duration:4s;  
   animation-fill-mode:forwards;
+  animation-iteration-count:infinite;
 }
 @keyframes bordering
 {
   0%{border: 1px solid white;border-radius:0%;right:0px}
-  50%{border:2px solid gray;right:100px;}
-  100%{border: 3px solid black;border-radius:50%;right:-100px;}
+  33%{border:2px solid gray;right:100px;opacity:01;width:5%}
+  66%{border: 3px solid black;border-radius:50%;right:-100px;opacity:1;width:5%}
+  100%{border: 1px solid white;border-radius:0%;right:0px;width:15%}
 }
 #photo:hover
 {
