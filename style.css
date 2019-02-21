@@ -23,7 +23,7 @@ h2
 }
 #cardtwo
 {
-    
+
   width:48%;
   float:left;
   border: 2px dotted black;
@@ -35,12 +35,20 @@ h2
 }
 #cardthree
 {
-
+animation-name:anim;
+  animation-duration:2s;
   width:50%;
   float:right;
   border: 2px dotted black;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);  
 }
+@keyframes anim
+{
+  0%{background-color:#CCFFFF;}
+  100%{background-color:#FCC;}
+}
+
+  
 #photo
 {
   width:15%;
