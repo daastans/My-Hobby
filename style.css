@@ -6,7 +6,8 @@ body {
   margin: 2em;
   outline-color: coral;
   font-style:italic;
-  
+      
+
   
 }
 
@@ -28,6 +29,8 @@ h2
   float:left;
   border: 2px dotted black;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+      background:linear-gradient(35deg,#CCFFFF ,#FFCCCC);
+
   
   
 }
