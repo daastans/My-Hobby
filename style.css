@@ -51,15 +51,27 @@ animation-name:anim;
   
 #photo
 {
+
   width:15%;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
   transition: 1s;
   border-radius: 15px;
-    opacity:0.7;
+    opacity:0.9;
   display:block;
   margin:auto;
   transform:scale(.9);
      
+}
+#photo:hover
+{
+  animation-name:bordering;
+  animation-duration:2s;  
+}
+@keyframes bordering
+{
+  0%{border: 1px solid white;border-radius:0%;}
+  50%{border:2px solid gray;}
+  100%{border: 3px solid black;border-radius:50%;}
 }
 #photo:hover
 {
