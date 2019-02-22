@@ -46,10 +46,15 @@ animation-name:anim;
     
   background:linear-gradient(35deg,orangered ,#FCC);
 }
-@keyframes anim
+
+#cardfour
 {
-  0%{background-color:#CCFFFF;}
-  100%{background-color:#000;}
+
+  width:50%;
+  
+ 
+    
+  background:dodgerblue;
 }
 
   
