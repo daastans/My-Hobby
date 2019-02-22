@@ -36,6 +36,10 @@ h2
   background:linear-gradient(35deg,#CCFFFF ,dodgerblue);
 
 }
+#cardtwo:hover
+{
+  background:dodgerblue;
+}
 #cardthree
 {
 animation-name:anim;
@@ -46,7 +50,10 @@ animation-name:anim;
     
   background:linear-gradient(35deg,orangered ,#FCC);
 }
-
+#cardthree:hover
+{
+  background:orangered;
+}
 #cardfour
 {
 
