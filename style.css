@@ -46,15 +46,16 @@ h2{   text-decoration:line-through;}
 .cardtwo:hover
 {
   animation:flip;
-  animation-duration:3s;
+  animation-duration:2s;
+  animation-iteration-count:infinite;
   background:dodgerblue;
   border: 3px solid white;
 }
 @keyframes flip
 {
-  0%{flex-direction:row;opacity:0;}
-  100%{flex-direction:row-reverse;opacity:1;
-  }
+  0%{border: 3px solid white;}
+  50%{border: 6px solid white; }
+  100%{border: 3px solid white;}
 }
 .cardone
 {
