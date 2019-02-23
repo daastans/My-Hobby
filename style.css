@@ -21,6 +21,11 @@ p
   flex-direction:column;  
   
 }
+.article
+{
+  display:flex;
+  flex-direction:column;
+}
 
 h2{   text-decoration:line-through;}
 .image
@@ -93,7 +98,6 @@ h1 {
   height:45px;
   width:500px;
   text-align:center;
-  font-style: bold;
   color: black;
   text-shadow: 2px 2px 5px silver;
    border: 4px solid black;
