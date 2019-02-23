@@ -39,25 +39,36 @@ h2{   text-decoration:line-through;}
   flex-direction:row;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
   background:linear-gradient(35deg,#CCFFFF ,dodgerblue);
-  border-radius:2%;
-  border: 0px solid white;
+  border-radius:0%;
+  
 
 }
 .cardtwo:hover
 {
+  animation:flip;
+  animation-duration:3s;
   background:dodgerblue;
+  border: 3px solid white;
+}
+@keyframes flip
+{
+  0%{flex-direction:row;opacity:0;}
+  100%{flex-direction:row-reverse;opacity:1;
+  }
 }
 .cardone
 {
   display:flex;
   flex-direction:row-reverse;   
   background:linear-gradient(35deg,orangered ,#FCC);
-  border: 0px solid white;
-  border-radius:3%;
+  border: 2px solid white;
+  
 }
 .cardone:hover
 {
+  flex-direction:row;
   background:orangered;
+  border: 3px solid white;
 }
 
 
