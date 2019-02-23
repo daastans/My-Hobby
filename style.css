@@ -11,7 +11,7 @@ body {
 }
 .cardhead
 {
-  border:1px solid black;
+  border:1px dotted black;
 }
 p
 {
@@ -28,6 +28,7 @@ p
 {
   display:flex;
   flex-direction:column;
+  justify-content:center;
 }
 
 h2{   text-decoration:underline;}
