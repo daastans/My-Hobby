@@ -9,7 +9,10 @@ body {
   background:url("https://i.imgur.com/MJAkxbh.png");
  
 }
-
+.cardhead
+{
+  border:1px solid black;
+}
 p
 {
   text-align:justify;
@@ -27,7 +30,7 @@ p
   flex-direction:column;
 }
 
-h2{   text-decoration:line-through;}
+h2{   text-decoration:underline;}
 .image
 {
   height:400px;
@@ -67,7 +70,9 @@ h2{   text-decoration:line-through;}
 }
 .cardone:hover
 {
-  flex-direction:row;
+  animation:flip;
+  animation-duration:2s;
+  animation-iteration-count:infinite;
   background:orangered;
   border: 3px solid white;
 }
