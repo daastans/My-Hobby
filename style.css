@@ -1,7 +1,7 @@
 /* CSS files add styling rules to your content */
-
+ @import url('https://fonts.googleapis.com/css?family=Patrick+Hand|Sofia|Marck+Script|Rochester|Merienda+One');
 body {
-  font-family: 'Pacifico', cursive;
+  font-family: 'Courgette';
   text-align:center;
   margin: 12em;
   outline-color: green;
@@ -20,6 +20,8 @@ header
 }
 p
 {
+  font-family: 'Rochester';
+  font-size:20px;
   text-align:justify;
   margin:5px;
 }
@@ -35,7 +37,7 @@ p
   justify-content:center;
 }
 
-h2{   text-decoration:underline;}
+h2{ font-family:'Sofia'; }
 .image
 {
   height:400px;
