@@ -1,7 +1,7 @@
 /* CSS files add styling rules to your content */
 
 body {
-  font-family: "Comic Sans MS" ;
+  font-family: 'Pacifico', cursive;
   text-align:center;
   margin: 12em;
   outline-color: green;
@@ -114,7 +114,7 @@ position:relative;
   transform:scale(1.05);
 }
 h1 {
-  
+  font-family: 'Pacifico', cursive;
   background-color:rgba(45, 45, 45, 0.1);
    display:inline-block;
   height:45px;
