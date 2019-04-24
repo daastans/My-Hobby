@@ -12,6 +12,7 @@ body {
 header
 {
   text-align:center;
+  display:inline-block;
 }
 .cardhead
 {
@@ -115,7 +116,7 @@ position:relative;
 h1 {
   
   background-color:rgba(45, 45, 45, 0.1);
-  
+   display:inline-block;
   height:45px;
   width:500px;
   
