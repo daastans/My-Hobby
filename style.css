@@ -1,16 +1,18 @@
 /* CSS files add styling rules to your content */
- @import url('https://fonts.googleapis.com/css?family=Patrick+Hand|Sofia|Marck+Script|Rochester|Merienda+One');
+ @import url('https://fonts.googleapis.com/css?family=Patrick+Hand|Sofia|Marck+Script|Aladin|Rochester|Merienda+One');
 body {
-  font-family: 'Courgette';
+  
+  font-family: 'Aladin';
   text-align:center;
   margin: 12em;
   outline-color: green;
-  font-style:italic;
+  
   background:url("https://cdn.glitch.com/d20a30dd-5cc4-4463-85e5-4faa9223c443%2F47d37584cbde2e0520c788c90056de(5).jpg?1551447089541");
  
 }
 header
 {
+  font-family: 'Aladin', cursive;
   text-align:center;
   display:inline-block;
 }
@@ -25,11 +27,7 @@ p
   text-align:justify;
   margin:5px;
 }
-#card-container
-{
-  display:flex;
-  flex-direction:column; 
-}
+
 .article
 {
   display:flex;
@@ -37,7 +35,7 @@ p
   justify-content:center;
 }
 
-h2{ font-family:'Sofia'; }
+h2{ font-family:'Aladin'; }
 .image
 {
   height:400px;
@@ -116,7 +114,7 @@ position:relative;
   transform:scale(1.05);
 }
 h1 {
-  font-family: 'Pacifico', cursive;
+  font-family: 'Aladin', cursive;
   background-color:rgba(45, 45, 45, 0.1);
    display:inline-block;
   height:45px;
